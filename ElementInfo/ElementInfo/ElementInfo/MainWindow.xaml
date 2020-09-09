@@ -1,0 +1,203 @@
+﻿<Window x:Class="ElementInfo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ElementInfo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280" MinHeight="576" MinWidth="1024">
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="White"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Group 1 Elements -->
+        <Button Name="BTN_Hydrogen" Content="H" Margin="2,2,2,2" FontSize="32" Grid.Column="0" Grid.Row="0" Click="Button_Click"/>
+        <Button Name="BTN_Lithium" Content="Li" Margin="2,2,2,2" FontSize="32" Grid.Column="0" Grid.Row="1" Click="Button_Click"/>
+        <Button Name="BTN_Sodium" Content="Na" Margin="2,2,2,2" FontSize="32" Grid.Column="0" Grid.Row="2" Click="Button_Click"/>
+        <Button Name="BTN_Potassium" Content="K" Margin="2,2,2,2" FontSize="32" Grid.Column="0" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Rubidium" Content="Rb" Margin="2,2,2,2" FontSize="32" Grid.Column="0" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Caesium" Content="Cs" Margin="2,2,2,2" FontSize="32" Grid.Column="0" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Francium" Content="Fr" Margin="2,2,2,2" FontSize="32" Grid.Column="0" Grid.Row="6" Click="Button_Click"/>
+        
+        <!-- Group 2 Elements -->
+        <Button Name="BTN_Beryllium" Content="Be" Margin="2,2,2,2" FontSize="32" Grid.Column="1" Grid.Row="1" Click="Button_Click"/>
+        <Button Name="BTN_Magnesium" Content="Mg" Margin="2,2,2,2" FontSize="32" Grid.Column="1" Grid.Row="2" Click="Button_Click"/>
+        <Button Name="BTN_Calcium" Content="Ca" Margin="2,2,2,2" FontSize="32" Grid.Column="1" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Strontium" Content="Sr" Margin="2,2,2,2" FontSize="32" Grid.Column="1" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Barium" Content="Ba" Margin="2,2,2,2" FontSize="32" Grid.Column="1" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Radium" Content="Ra" Margin="2,2,2,2" FontSize="32" Grid.Column="1" Grid.Row="6" Click="Button_Click"/>
+        
+        <!-- Group 3 Elements -->
+        <Button Name="BTN_Scandium" Content="Sc" Margin="2,2,2,2" FontSize="32" Grid.Column="2" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Yttrium" Content="Y" Margin="2,2,2,2" FontSize="32" Grid.Column="2" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Lanthanum" Content="La" Margin="2,2,2,2" FontSize="32" Grid.Column="2" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Actinium" Content="Ac" Margin="2,2,2,2" FontSize="32" Grid.Column="2" Grid.Row="6" Click="Button_Click"/>
+        
+        <!-- Group 4 Elements -->
+        <Button Name="BTN_Titanium" Content="Ti" Margin="2,2,2,2" FontSize="32" Grid.Column="3" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Zirconium" Content="Zr" Margin="2,2,2,2" FontSize="32" Grid.Column="3" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Hafnium" Content="Hf" Margin="2,2,2,2" FontSize="32" Grid.Column="3" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Rutherfordium" Content="Rf" Margin="2,2,2,2" FontSize="32" Grid.Column="3" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Cerium" Content="Ce" Margin="2,2,2,2" FontSize="32" Grid.Column="3" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Thorium" Content="Th" Margin="2,2,2,2" FontSize="32" Grid.Column="3" Grid.Row="8" Click="Button_Click"/>
+        
+        <!-- Group 5 Elements -->
+        <Button Name="BTN_Vanadium" Content="V" Margin="2,2,2,2" FontSize="32" Grid.Column="4" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Niobium" Content="Nb" Margin="2,2,2,2" FontSize="32" Grid.Column="4" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Tantalum" Content="Ta" Margin="2,2,2,2" FontSize="32" Grid.Column="4" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Dubnium" Content="Db" Margin="2,2,2,2" FontSize="32" Grid.Column="4" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Praseodymium" Content="Pr" Margin="2,2,2,2" FontSize="32" Grid.Column="4" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Protactinium" Content="Pa" Margin="2,2,2,2" FontSize="32" Grid.Column="4" Grid.Row="8" Click="Button_Click"/>
+        
+        <!-- Group 6 Elements -->
+        <Button Name="BTN_Chromium" Content="Cr" Margin="2,2,2,2" FontSize="32" Grid.Column="5" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Molybdenum" Content="Mo" Margin="2,2,2,2" FontSize="32" Grid.Column="5" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Tungsten" Content="W" Margin="2,2,2,2" FontSize="32" Grid.Column="5" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Seaborgium" Content="Sg" Margin="2,2,2,2" FontSize="32" Grid.Column="5" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Neodymium" Content="Nd" Margin="2,2,2,2" FontSize="32" Grid.Column="5" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Uranium" Content="U" Margin="2,2,2,2" FontSize="32" Grid.Column="5" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 7 Elements -->
+        <Button Name="BTN_Manganese" Content="Mn" Margin="2,2,2,2" FontSize="32" Grid.Column="6" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Technetium" Content="Tc" Margin="2,2,2,2" FontSize="32" Grid.Column="6" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Rhenium" Content="Re" Margin="2,2,2,2" FontSize="32" Grid.Column="6" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Bohrium" Content="Bh" Margin="2,2,2,2" FontSize="32" Grid.Column="6" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Promethium" Content="Pm" Margin="2,2,2,2" FontSize="32" Grid.Column="6" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Neptunium" Content="Np" Margin="2,2,2,2" FontSize="32" Grid.Column="6" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 8 Elements -->
+        <Button Name="BTN_Iron" Content="Fe" Margin="2,2,2,2" FontSize="32" Grid.Column="7" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Ruthenium" Content="Ru" Margin="2,2,2,2" FontSize="32" Grid.Column="7" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Osmium" Content="Os" Margin="2,2,2,2" FontSize="32" Grid.Column="7" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Hassium" Content="Hs" Margin="2,2,2,2" FontSize="32" Grid.Column="7" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Samarium" Content="Sm" Margin="2,2,2,2" FontSize="32" Grid.Column="7" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Plutonium" Content="Pu" Margin="2,2,2,2" FontSize="32" Grid.Column="7" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 9 Elements -->
+        <Button Name="BTN_Cobalt" Content="Co" Margin="2,2,2,2" FontSize="32" Grid.Column="8" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Rhodium" Content="Rh" Margin="2,2,2,2" FontSize="32" Grid.Column="8" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Iridium" Content="Ir" Margin="2,2,2,2" FontSize="32" Grid.Column="8" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Meitnerium" Content="Mt" Margin="2,2,2,2" FontSize="32" Grid.Column="8" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Europium" Content="Eu" Margin="2,2,2,2" FontSize="32" Grid.Column="8" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Americium" Content="Am" Margin="2,2,2,2" FontSize="32" Grid.Column="8" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 10 Elements -->
+        <Button Name="BTN_Nickel" Content="Ni" Margin="2,2,2,2" FontSize="32" Grid.Column="9" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Palladium" Content="Pd" Margin="2,2,2,2" FontSize="32" Grid.Column="9" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Platinum" Content="Pt" Margin="2,2,2,2" FontSize="32" Grid.Column="9" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Darmstadtium" Content="Ds" Margin="2,2,2,2" FontSize="32" Grid.Column="9" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Gadolinium" Content="Gd" Margin="2,2,2,2" FontSize="32" Grid.Column="9" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Curium" Content="Cm" Margin="2,2,2,2" FontSize="32" Grid.Column="9" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 11 Elements -->
+        <Button Name="BTN_Copper" Content="Cu" Margin="2,2,2,2" FontSize="32" Grid.Column="10" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Silver" Content="Ag" Margin="2,2,2,2" FontSize="32" Grid.Column="10" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Gold" Content="Au" Margin="2,2,2,2" FontSize="32" Grid.Column="10" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Roentgenium" Content="Rg" Margin="2,2,2,2" FontSize="32" Grid.Column="10" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Terbium" Content="Tb" Margin="2,2,2,2" FontSize="32" Grid.Column="10" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Berkelium" Content="Bk" Margin="2,2,2,2" FontSize="32" Grid.Column="10" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 12 Elements -->
+        <Button Name="BTN_Zinc" Content="Zn" Margin="2,2,2,2" FontSize="32" Grid.Column="11" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Cadmium" Content="Cd" Margin="2,2,2,2" FontSize="32" Grid.Column="11" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Mercury" Content="Hg" Margin="2,2,2,2" FontSize="32" Grid.Column="11" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Copernicium" Content="Cn" Margin="2,2,2,2" FontSize="32" Grid.Column="11" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Dysprosium" Content="Dy" Margin="2,2,2,2" FontSize="32" Grid.Column="11" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Californium" Content="Cf" Margin="2,2,2,2" FontSize="32" Grid.Column="11" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 13 Elements -->
+        <Button Name="BTN_Boron" Content="B" Margin="2,2,2,2" FontSize="32" Grid.Column="12" Grid.Row="1" Click="Button_Click"/>
+        <Button Name="BTN_Aluminium" Content="Al" Margin="2,2,2,2" FontSize="32" Grid.Column="12" Grid.Row="2" Click="Button_Click"/>
+        <Button Name="BTN_Gallium" Content="Ga" Margin="2,2,2,2" FontSize="32" Grid.Column="12" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Indium" Content="In" Margin="2,2,2,2" FontSize="32" Grid.Column="12" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Thallium" Content="Tl" Margin="2,2,2,2" FontSize="32" Grid.Column="12" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Nihonium" Content="Nh" Margin="2,2,2,2" FontSize="32" Grid.Column="12" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Holmium" Content="Ho" Margin="2,2,2,2" FontSize="32" Grid.Column="12" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Einsteinium" Content="Es" Margin="2,2,2,2" FontSize="32" Grid.Column="12" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 14 Elements -->
+        <Button Name="BTN_Carbon" Content="C" Margin="2,2,2,2" FontSize="32" Grid.Column="13" Grid.Row="1" Click="Button_Click"/>
+        <Button Name="BTN_Silicon" Content="Si" Margin="2,2,2,2" FontSize="32" Grid.Column="13" Grid.Row="2" Click="Button_Click"/>
+        <Button Name="BTN_Germanium" Content="Ge" Margin="2,2,2,2" FontSize="32" Grid.Column="13" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Tin" Content="Sn" Margin="2,2,2,2" FontSize="32" Grid.Column="13" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Lead" Content="Pb" Margin="2,2,2,2" FontSize="32" Grid.Column="13" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Flerovium" Content="Fl" Margin="2,2,2,2" FontSize="32" Grid.Column="13" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Erbium" Content="Er" Margin="2,2,2,2" FontSize="32" Grid.Column="13" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Fermium" Content="Fm" Margin="2,2,2,2" FontSize="32" Grid.Column="13" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 15 Elements -->
+        <Button Name="BTN_Nitrogen" Content="N" Margin="2,2,2,2" FontSize="32" Grid.Column="14" Grid.Row="1" Click="Button_Click"/>
+        <Button Name="BTN_Phosphorus" Content="P" Margin="2,2,2,2" FontSize="32" Grid.Column="14" Grid.Row="2" Click="Button_Click"/>
+        <Button Name="BTN_Arsenic" Content="As" Margin="2,2,2,2" FontSize="32" Grid.Column="14" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Antimony" Content="Sb" Margin="2,2,2,2" FontSize="32" Grid.Column="14" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Bismuth" Content="Bi" Margin="2,2,2,2" FontSize="32" Grid.Column="14" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Moscovium" Content="Mc" Margin="2,2,2,2" FontSize="32" Grid.Column="14" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Thulium" Content="Tm" Margin="2,2,2,2" FontSize="32" Grid.Column="14" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Mendelevium" Content="Md" Margin="2,2,2,2" FontSize="32" Grid.Column="14" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 16 Elements -->
+        <Button Name="BTN_Oxygen" Content="O" Margin="2,2,2,2" FontSize="32" Grid.Column="15" Grid.Row="1" Click="Button_Click"/>
+        <Button Name="BTN_Sulfur" Content="S" Margin="2,2,2,2" FontSize="32" Grid.Column="15" Grid.Row="2" Click="Button_Click"/>
+        <Button Name="BTN_Selenium" Content="Se" Margin="2,2,2,2" FontSize="32" Grid.Column="15" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Tellurium" Content="Te" Margin="2,2,2,2" FontSize="32" Grid.Column="15" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Polonium" Content="Po" Margin="2,2,2,2" FontSize="32" Grid.Column="15" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Livermorium" Content="Lv" Margin="2,2,2,2" FontSize="32" Grid.Column="15" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Ytterbium" Content="Yb" Margin="2,2,2,2" FontSize="32" Grid.Column="15" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Nobelium" Content="No" Margin="2,2,2,2" FontSize="32" Grid.Column="15" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 17 Elements -->
+        <Button Name="BTN_Fluorine" Content="F" Margin="2,2,2,2" FontSize="32" Grid.Column="16" Grid.Row="1" Click="Button_Click"/>
+        <Button Name="BTN_Chlorine" Content="Cl" Margin="2,2,2,2" FontSize="32" Grid.Column="16" Grid.Row="2" Click="Button_Click"/>
+        <Button Name="BTN_Bromine" Content="Br" Margin="2,2,2,2" FontSize="32" Grid.Column="16" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Iodine" Content="I" Margin="2,2,2,2" FontSize="32" Grid.Column="16" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Astatine" Content="At" Margin="2,2,2,2" FontSize="32" Grid.Column="16" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Tennessine" Content="Ts" Margin="2,2,2,2" FontSize="32" Grid.Column="16" Grid.Row="6" Click="Button_Click"/>
+        <Button Name="BTN_Lutetium" Content="Lu" Margin="2,2,2,2" FontSize="32" Grid.Column="16" Grid.Row="7" Click="Button_Click"/>
+        <Button Name="BTN_Lawrencium" Content="Lr" Margin="2,2,2,2" FontSize="32" Grid.Column="16" Grid.Row="8" Click="Button_Click"/>
+
+        <!-- Group 18 Elements -->
+        <Button Name="BTN_Helium" Content="He" Margin="2,2,2,2" FontSize="32" Grid.Column="17" Grid.Row="0" Click="Button_Click"/>
+        <Button Name="BTN_Neon" Content="Ne" Margin="2,2,2,2" FontSize="32" Grid.Column="17" Grid.Row="1" Click="Button_Click"/>
+        <Button Name="BTN_Argon" Content="Ar" Margin="2,2,2,2" FontSize="32" Grid.Column="17" Grid.Row="2" Click="Button_Click"/>
+        <Button Name="BTN_Krypton" Content="Kr" Margin="2,2,2,2" FontSize="32" Grid.Column="17" Grid.Row="3" Click="Button_Click"/>
+        <Button Name="BTN_Xenon" Content="Xe" Margin="2,2,2,2" FontSize="32" Grid.Column="17" Grid.Row="4" Click="Button_Click"/>
+        <Button Name="BTN_Radon" Content="Rn" Margin="2,2,2,2" FontSize="32" Grid.Column="17" Grid.Row="5" Click="Button_Click"/>
+        <Button Name="BTN_Oganesson" Content="Og" Margin="2,2,2,2" FontSize="32" Grid.Column="17" Grid.Row="6" Click="Button_Click"/>
+    </Grid>
+</Window>
